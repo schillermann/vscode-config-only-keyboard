@@ -1,2 +1,2 @@
-# vscode-config-only-keyboard
-VS Code config only for keyboard use
+# VSCode Config
+Navigate in VSCode like Vim.
