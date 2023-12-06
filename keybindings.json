@@ -31,31 +31,31 @@
     "when": "canNavigateBack"
   },
   {
-    "key": "ctrl+alt+h",
-    "command": "cursorLineStart"
-  },
-  {
-    "key": "ctrl+alt+l",
-    "command": "cursorLineEnd"
-  }
-  {
     "key": "ctrl+alt+k",
     "command": "cursorMove",
     "args": {
-        "to": "up",
-        "by": "line",
-        "value": 10
+      "to": "up",
+      "by": "line",
+      "value": 10
     },
     "when": "editorTextFocus"
-},
-{
+  },
+  {
     "key": "ctrl+alt+j",
     "command": "cursorMove",
     "args": {
-        "to": "down",
-        "by": "line",
-        "value": 10
+      "to": "down",
+      "by": "line",
+      "value": 10
     },
     "when": "editorTextFocus"
-},
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "cursorWordStartLeft"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "cursorWordStartRight"
+  }
 ]
